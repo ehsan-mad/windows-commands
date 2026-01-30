@@ -1,0 +1,23 @@
+ CHKDSK D: /f /r   #disk check
+sfc/scannow  #find and fix corrupted windows file
+DISM /Online /Cleanup-Image /RestoreHealth   # advanced find and fix corrupted windows file
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61  #ultimate performance mode unlocker //(use on powershell)
+ Get-MpComputerStatus  //status check defender antivirus , AntispywareEnabled //(use on powershell)
+Get-MpThreatDetection //Threat detection .... if returns nothing safe //(use on powershell)
+
+msdt.exe /id DeviceDiagnostic  //updating , adapter errors
+
+
+
+sigverif //signature verify (run)win+r
+mdsched.exe //ram working properly checker (run)
+
+
+
+
+
+ipconfig /displaydns   #checks cached or network issues
+ipconfig /flushdns       #resolve dns issue
+
+
+C:\Users\EHSAN\Desktop\Disk Check.txt
