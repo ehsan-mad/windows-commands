@@ -19,11 +19,14 @@ prefetch // (run)win+r
 
 
 
-
+#network
+netsh winsoc reset //reset wifi adapters
+netsh int ip reset //fixes corrupter network config
 ipconfig /displaydns   #checks cached or network issues
 ipconfig /flushdns       #resolve dns issue
 
 
 
 C:\Users\EHSAN\Desktop\Disk Check.txt
+
 
