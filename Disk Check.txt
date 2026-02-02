@@ -13,6 +13,9 @@ irm https://get.activated.win | iex   #Use MS Office & Windows For Free Permanen
 sigverif //signature verify (run)win+r
 mdsched.exe //ram working properly checker (run)
 
+#storage cleaner
+softwaredistribution // (run)win+r
+prefetch // (run)win+r
 
 
 
@@ -23,3 +26,4 @@ ipconfig /flushdns       #resolve dns issue
 
 
 C:\Users\EHSAN\Desktop\Disk Check.txt
+
